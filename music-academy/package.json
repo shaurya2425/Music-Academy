@@ -11,7 +11,7 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "motion": "^12.23.0",
-    "next": "15.3.5",
+    "next": "latest",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "simplex-noise": "^4.0.3",
@@ -27,6 +27,6 @@
     "eslint-config-next": "15.3.5",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "next": "15.3.5"
+    "next": "latest"
   }
 }
