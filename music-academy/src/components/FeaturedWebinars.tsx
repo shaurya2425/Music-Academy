@@ -61,16 +61,16 @@ function UpcomingWebinars() {
             </div>
 
             <div className="mt-10">
-            <HoverEffect
-            items={featuredWebinars.map(webinar => (
-                {
-                title: webinar.title,
-                description: webinar.description,
-                link: '/'
-                }
-            ))}
-            />
-            </div>
+          <HoverEffect
+          items={featuredWebinars.map(webinar => (
+            {
+              title: webinar.title,
+              description: webinar.description,
+              link: '/'
+            }
+          ))}
+          />
+        </div>
 
             <div className="mt-20 text-center">
                 <Link href={"/courses"}

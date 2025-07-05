@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/FeaturedWebinars";
 import Instructors from "@/components/Instructors";
+import Footer from "../components/Footer";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <MusicSchoolTestimonials/>
       <UpcomingWebinars/>    
       <Instructors/>    
+      <Footer/>    
 
     </div>
   );
